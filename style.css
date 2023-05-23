@@ -32,6 +32,11 @@ h2 {
     font-size: 2em;
 }
 
+a {
+    color: blue;
+    text-decoration: none;
+}
+
 .container {
     margin: 20px auto;
     width: 80%;
