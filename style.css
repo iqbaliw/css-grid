@@ -2,6 +2,8 @@
     --clr-dark: #0f172a;
     --clr-light: #f1f5f9;
     --clr-accent: #e11d48;
+    --clr-clouds: #ecf0f1;
+    --clr-silver: #bdc3c7;
 }
 
 *,
@@ -22,6 +24,14 @@ body {
     background-color: var(--clr-light);
 }
 
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
 .container {
     margin: 20px auto;
     width: 80%;
@@ -33,5 +43,30 @@ body {
     background-color: #fb7185;
     font-weight: 700;
     color: var(--clr-light);
-    border: 10px solid var(--clr-accent);
+    border: 10px solid var(--clr-silver);
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-2em {
+    margin-top: 2em;
+}
+
+.mb-2em {
+    margin-bottom: 2em;
+}
+
+.d-block {
+    display: block;
 }

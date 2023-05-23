@@ -1,4 +1,15 @@
-.container {
+:root {
+    --clr-orange: #f39c12;
+    --clr-pumpkin: #d35400;
+    --clr-pomegranate: #c0392b;
+    --clr-sunflower: #f1c40f;
+    --clr-carrot: #e67e22;
+    --clr-alizarin: #e74c3c;
+    --clr-amethyst: #9b59b6;
+    --clr-wetaspal: #34495e;
+}
+
+.boxgrid-1 {
     display: grid;
     grid-template-rows: 100px 100px 100px 100px 100px 100px;
     grid-template-columns: 100px 100px 100px 100px 100px 100px;
@@ -25,4 +36,55 @@
 .item-3 {
     /* -1 value to takeover all area */
     grid-area: 4 / 1 / -1 / -1;
+}
+
+.boxgrid-2 {
+    width: 979px;
+    display: grid;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+    grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
+}
+
+.item-11 {
+    background-color: var(--clr-orange);
+    grid-row: 1 / 4;
+    grid-column: 1 / 4;
+}
+
+.item-22 {
+    background-color: var(--clr-pumpkin);
+    grid-row: 1 / 5;
+    grid-column: 4 / 8;
+}
+
+.item-33 {
+    background-color: var(--clr-pomegranate);
+    grid-row: 1 / 6;
+    grid-column: 8 / 13;
+}
+
+.item-44 {
+    background-color: var(--clr-sunflower);
+    grid-row: 4 / 7;
+    grid-column: 1 / 4;
+}
+
+.item-55 {
+    background-color: var(--clr-carrot);
+    grid-area: 5 / 4 / 7 / 8;
+}
+
+.item-66 {
+    background-color: var(--clr-alizarin);
+    grid-area: 6 / 8 / 7 / 13;
+}
+
+.item-77 {
+    background-color: var(--clr-amethyst);
+    grid-area: 7 / 1 / 13 / 7;
+}
+
+.item-88 {
+    background-color: var(--clr-wetaspal);
+    grid-area: 7 / 7 / 13 / 13;
 }
